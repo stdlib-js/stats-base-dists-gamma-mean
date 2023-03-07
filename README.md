@@ -32,10 +32,14 @@ The [expected value][expected-value] for a [gamma][gamma-distribution] random va
 
 <!-- <equation class="equation" label="eq:gamma_expectation" align="center" raw="\mathbb{E}\left[ X \right] = \frac{\alpha}{\beta}" alt="Expected value for a gamma distribution."> -->
 
-<div class="equation" align="center" data-raw-text="\mathbb{E}\left[ X \right] = \frac{\alpha}{\beta}" data-equation="eq:gamma_expectation">
+```math
+\mathbb{E}\left[ X \right] = \frac{\alpha}{\beta}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\mathbb{E}\left[ X \right] = \frac{\alpha}{\beta}" data-equation="eq:gamma_expectation">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/gamma/mean/docs/img/equation_gamma_expectation.svg" alt="Expected value for a gamma distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -229,7 +233,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
