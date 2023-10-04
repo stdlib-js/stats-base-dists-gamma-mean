@@ -69,7 +69,7 @@ where `α > 0` is the shape parameter `β > 0` is the rate parameter.
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@v0.1.1-esm/index.mjs';
 ```
 
 #### mean( alpha, beta )
@@ -145,7 +145,7 @@ v = mean( 1.0, -1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@v0.1.1-esm/index.mjs';
 
 var alpha;
 var beta;
