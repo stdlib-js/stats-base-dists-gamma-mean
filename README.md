@@ -69,7 +69,7 @@ where `α > 0` is the shape parameter `β > 0` is the rate parameter.
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@v0.2.2-deno/mod.js';
 ```
 
 #### mean( alpha, beta )
@@ -140,7 +140,7 @@ v = mean( 1.0, -1.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@v0.2.2-deno/mod.js';
 
 var alpha;
 var beta;
