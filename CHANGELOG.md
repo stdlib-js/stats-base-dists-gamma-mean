@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-12)
+## Unreleased (2025-02-09)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c7860af`](https://github.com/stdlib-js/stdlib/commit/c7860af1896d84360294b65f3e37982ca631c435) - **bench:** refactor random number generation in `stats/base/dists/gamma` [(#4929)](https://github.com/stdlib-js/stdlib/pull/4929) _(by Karan Anand)_
 -   [`fc0ff17`](https://github.com/stdlib-js/stdlib/commit/fc0ff171dab59e73e1748c1bff504166adc826c3) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
 -   [`b7867cb`](https://github.com/stdlib-js/stdlib/commit/b7867cbb3a4fc453e19203794402c36f19b264fd) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8627f7a`](https://github.com/stdlib-js/stdlib/commit/8627f7a099aeb10863e83e4a1005dc4749b5d371) - **feat:** add C implementation for `stats/base/dists/gamma/mean` [(#4122)](https://github.com/stdlib-js/stdlib/pull/4122) _(by Prashant Kumar Yadav)_
@@ -48,8 +49,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Karan Anand
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 
