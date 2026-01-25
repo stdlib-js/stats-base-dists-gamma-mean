@@ -69,6 +69,11 @@ where `α > 0` is the shape parameter `β > 0` is the rate parameter.
 ## Usage
 
 ```javascript
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-gamma-mean/tags). For example,
+
+```javascript
 import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@v0.3.0-deno/mod.js';
 ```
 
@@ -141,7 +146,7 @@ v = mean( 1.0, -1.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@v0.3.0-deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-mean@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
